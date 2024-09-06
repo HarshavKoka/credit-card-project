@@ -1,1 +1,0 @@
-const isebhiw = 10
