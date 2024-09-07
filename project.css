@@ -7,17 +7,51 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* 
-.box {
-    display: block;
-    font-size: 50px;
-    width: 2px;
-} */
-
-.logo img {
-    width: 50px;
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
 }
 
-.chip img {
+/* .box {
+    position: relative;
+    padding: 25px;
+    border-radius: 28px;
+    background-color: white;
+    max-width: 380px;
+    width: 100%;
+} */
+.box {
+    position: relative;
+    background-color: #fff;
+    padding: 25px;
+    background-image: url('bg.png');
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+}
+
+h5 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+header,
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 48px;
+    margin-right: 10px;
+}
+
+header .chip {
     width: 60px;
 }
