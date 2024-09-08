@@ -47,6 +47,12 @@ header,
 
 }
 
+h6 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .logo img {
     width: 48px;
     margin-right: 10px;
@@ -54,4 +60,21 @@ header,
 
 header .chip {
     width: 60px;
+}
+
+.box .carddetails {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h5.number {
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name {
+    margin-top: 20px;
 }
